@@ -65,3 +65,39 @@ if(age>=18 || gender == "K")// VEYA => true,false -> true
     console.log("Kullanıcı kadın ya da 18 yaşından büyük")
 } 
 
+// Döngüler
+for(let i=0; i<5; i++) // Statik bir sayı döngüsü.
+{
+    // Iteration, iterasyon
+    // Bu scope 0'dan 5'e kadar(5 dahil değil) tekrar edecek.  
+    console.log(i);
+    let x1:number=10; 
+}
+
+let students3:string[] = ["Sefa","Yaren","Sudenur","Nilay"]
+
+for(let student of students3) // X veri setini iterasyona uğrat (her birini tek tek gez)
+{
+    console.log(student)
+}
+// döngünün koşul bloğuna göre çalışmasını sağlar.
+let number3:number=10;
+while (number3 < 50) // infinite loop
+{
+    console.log(number3)
+    number3++;
+}
+
+// 1. iterasyona direkt koşulu sağlıyorsa girer. (İlk çalıştırma öncesi kontrol)
+let number4=10;
+while (number4 < 5){
+    console.log("number4")
+}
+
+// 1. iterasyon sonrası ilk kontrolü gerçekleştirir.
+do{
+    console.log("number4-dowhile")
+}while(number4<5)
+
+
+//
