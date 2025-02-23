@@ -80,6 +80,7 @@ for(let student of students3) // X veri setini iterasyona uğrat (her birini tek
 {
     console.log(student)
 }
+// for => in 
 // döngünün koşul bloğuna göre çalışmasını sağlar.
 let number3:number=10;
 while (number3 < 50) // infinite loop
@@ -99,5 +100,6 @@ do{
     console.log("number4-dowhile")
 }while(number4<5)
 
-
+// CTRL + C => Terminaldeki loading dahil işlemleri durdurur.
 //
+// fonksiyonlar .. classlar.. interfaceler
